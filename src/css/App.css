@@ -1,0 +1,57 @@
+/* Stiziles */
+
+@import "normalize.css";
+@import "AppVars";
+
+html,
+body {
+  min-width: var(--app-min-width);
+  font-family: var(--theme-font-stack);
+  font-size: 16px;
+  color: color(var(--theme-font-color) tint(20%));
+  background-color: color(var(--theme-primary-color) tint(20%));
+  height: 100%;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+  background-color: var(--theme-secondary-color);
+  font-weight: bold;
+  padding: 1em;
+}
+.Button {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid var(--theme-primary-color-contrast);
+  white-space: nowrap;
+  border-radius: 0;
+  user-select: none;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+button:hover,
+button:focus {
+   background: var(--theme-secondary-color-contrast);
+}
+button:disabled {
+    opacity: var(--theme-disabled-opacity);
+    cursor: not-allowed;
+}
+/* -------------------------------------*/
+/* General helpers */
+/* -------------------------------------*/
+.is-hidden {
+  display: none;
+}
+.has-centered-content {
+  text-align: center;
+}
+/* -------------------------------------*/
+/* App */
+/* -------------------------------------*/
+.App {
+  padding: 1em;
+}

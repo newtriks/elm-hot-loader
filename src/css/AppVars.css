@@ -1,0 +1,18 @@
+:root {
+  /* Layout */
+  --app-min-width: 240px;
+/* 336699  666666  999999 */
+  /* Z-index */
+  --z-index-main: 100;
+
+  /* Theme */
+  --theme-primary-color: #666666;
+  --theme-primary-color-contrast: #999999;
+  --theme-secondary-color: #336699;
+  --theme-secondary-color-contrast: #3071A9;
+  --theme-font-color: #fff;
+  --theme-error-color: red;
+  --theme-progress-color: #29d;
+  --theme-font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --theme-disabled-opacity: 0.3;
+}
