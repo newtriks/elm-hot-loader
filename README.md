@@ -1,5 +1,8 @@
 # Elm Webpack starter with Hot Loader
-(Inspired from https://github.com/fluxxu/elm-hot-loader)
+
+### Credit references
+- https://github.com/fluxxu/elm-hot-loader
+- https://github.com/simonh1000/elm-hot-loader)
 
 ## Installation
 
@@ -10,4 +13,14 @@ $ npm run dev
 
 Open http://localhost:3000
 
-See also my [MEEN(!) stack](https://github.com/simonh1000/elm-fullstack-starter) starter using Gulp
+## Build release
+
+```sh
+$ npm run build
+```
+
+## Features
+
+1. Hotloading of Elm, CSS, etc using the Webpack hot-loader.
+2. PostCSS integration e.g. [cssnext](http://cssnext.io/) (includes `autoprefixer`), CSS imports, custom properties, color function, etc.
+3. ES2015 support using [Babel](http://babeljs.io/)
