@@ -21,7 +21,7 @@
     "copy-webpack-plugin": "^1.1.1",
     "css-loader": "^0.23.1",
     "elm": "^0.16.0",
-    "elm-hot-loader": "^0.1.0",
+    "elm-hot-loader": "^0.2.2",
     "elm-webpack-loader": "^2.0.0",
     "express": "^4.13.4",
     "file-loader": "^0.8.5",
